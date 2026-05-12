@@ -13,7 +13,7 @@ from stockfish import Stockfish
 import chess
 import os
 
-STOCKFISH_PATH = os.getenv("STOCKFISH_PATH", settings.local_stockfish_path)
+STOCKFISH_PATH = os.getenv("STOCKFISH_PATH", settings.stockfish_path)
 
 sf = Stockfish(path=STOCKFISH_PATH)
 
