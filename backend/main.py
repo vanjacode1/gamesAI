@@ -48,7 +48,7 @@ app = FastAPI()
 # allow origins, methods, and request headers from approved origins to call the API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://localhost:3000","http://localhost:5173","https://gamesai.onrender.com"],
+    allow_origins=["https://localhost:3000","http://localhost:5173","https://gamesai-1.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
