@@ -6,10 +6,11 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "chess>=1.11.2",
-    "fastapi>=0.136.1",
+    "fastapi[standard]>=0.136.1",
     "numpy>=2.4.4",
     "openai>=2.35.0",
     "pydantic-settings>=2.14.0",
     "python-chess>=1.999",
     "stockfish>=5.2.0",
+    "uvicorn[standard]>=0.46.0",
 ]
