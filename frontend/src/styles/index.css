@@ -1,0 +1,27 @@
+:root {
+  --bg-dark: #020617;
+  --bg-panel: #0f172a;
+  --bg-panel-light: #111827;
+
+  --retro-yellow: #facc15;
+  --retro-red: #ef4444;
+  --retro-blue: #2563eb;
+  --retro-green: #22c55e;
+
+  --text-main: #ffffff;
+  --text-muted: #cbd5e1;
+
+  --font-retro: "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg-dark);
+  color: var(--text-main);
+  font-family: var(--font-retro);
+}

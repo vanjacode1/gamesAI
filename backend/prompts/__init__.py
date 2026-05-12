@@ -1,0 +1,3 @@
+from .tictactoe_instructions import TICTACTOE_PROMPT
+from .connectfour_instructions import CONNECT_FOUR_PROMPT
+from .chess_analysis_instructions import CHESS_ANALYSIS_PROMPT

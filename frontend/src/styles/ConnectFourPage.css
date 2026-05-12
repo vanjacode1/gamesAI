@@ -1,0 +1,75 @@
+.connect-four-board {
+  width: fit-content;
+  margin: 32px auto 28px;
+  padding: 18px;
+  background: #1e3a8a;
+  border: 4px solid #0f172a;
+  border-radius: 24px;
+  box-shadow:
+    0 0 0 4px #000,
+    8px 8px 0 #38bdf8,
+    0 0 32px rgba(56, 189, 248, 0.45);
+}
+
+.connect-four-row {
+  display: flex;
+}
+
+.connect-four-cell {
+  width: 72px;
+  height: 72px;
+  margin: 6px;
+  border: 4px solid #0f172a;
+  border-radius: 50%;
+  background: #020617;
+  cursor: pointer;
+  font-family: "Courier New", monospace;
+  font-size: 30px;
+  font-weight: bold;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    background 0.15s ease;
+}
+
+.connect-four-cell:hover:not(:disabled) {
+  transform: translateY(-3px);
+  box-shadow: 0 0 18px rgba(250, 204, 21, 0.8);
+}
+
+.connect-four-cell:disabled {
+  cursor: not-allowed;
+}
+
+.connect-four-cell.red-piece {
+  background: #ef4444;
+  color: #fee2e2;
+}
+
+.connect-four-cell.yellow-piece {
+  background: #facc15;
+  color: #422006;
+}
+
+.connect-four-cell.empty-cell {
+  background: #020617;
+}
+
+.connect-four-controls {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .connect-four-board {
+    padding: 10px;
+  }
+
+  .connect-four-cell {
+    width: 46px;
+    height: 46px;
+    margin: 4px;
+    font-size: 20px;
+  }
+}
