@@ -1,4 +1,3 @@
-from llm_service import generate_AI_player
 import numpy as np
 
 class TicTacToe:
@@ -54,30 +53,4 @@ class TicTacToe:
             for row in self.board
             for cell in row):
                 return "draw"
-
-
-if __name__=="__main__":
-    game = TicTacToe()
-    
-    while True:
-        print(game.available_moves())
-        ai_player_move = generate_AI_player(game.board, "X", game.available_moves)
-        print(ai_player_move)
-        game.apply_move("X", ai_player_move)
-        print(game.board)
-    
-        if game.check_winner() is not None:
-            print(game.check_winner())
-            break
-        
-        human_player_move_row = int(input("ROW" ))
-        human_player_move_col = int(input("col" ))
-        game.apply_move("O", (human_player_move_row, human_player_move_col))
-        print(game.board)
-    
-        if game.check_winner() is not None:
-            print(game.check_winner())
-            break
-        
-        
         
