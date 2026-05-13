@@ -10,4 +10,4 @@ wheels/
 .env
 .venv
 node_modules/
-chess_engine/
+chess_engine/stockfish-windows-x86-64-avx2.exe
