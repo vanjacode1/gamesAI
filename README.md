@@ -8,6 +8,11 @@ The chess mode is powered by the **Stockfish engine**, allowing users not only t
 ## Live Demo
 [Try the app here](https://gamesai-1.onrender.com/)
 
+## About This Project
+
+I built this project to combine my interest in games, strategy, and AI.  
+The goal was to create an interactive application that shows both technical implementation skills and attention to user experience.
+
 ## Games Included
 
 ### Tic-Tac-Toe
@@ -33,5 +38,19 @@ The engine can evaluate:
 
 This turns the chess game into more than just a playable board, it becomes a learning tool.
 
+While building this project, I improved my skills in:
 
+- Building interactive web applications
+- Designing API routes for game logic and AI move analysis
+- Creating AI decision logic for classic board games
+- Integrating the Stockfish chess engine
+- Handling asynchronous engine responses
+- Structuring game logic in a clean, reusable way
+- Creating a user-friendly interface for real-time feedback
+
+## Future Improvements
+
+- Multiple AI difficulty levels
+- Online multiplayer mode
+- User accounts and match history
 
