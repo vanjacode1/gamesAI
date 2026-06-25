@@ -38,8 +38,6 @@ The engine can evaluate:
 
 This turns the chess game into more than just a playable board, it becomes a learning tool.
 
----
-
 ## What I Learned
 While building this project, I improved my skills in:
 
